@@ -1,4 +1,4 @@
-import useMediaQuery from "@/hooks/useMediaQuerry";
+
 import HText from "@/shared/HText";
 import { BenefitType, SelectedPage } from "@/shared/enum";
 import {
