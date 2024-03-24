@@ -21,7 +21,7 @@ type Props = {
 };
 
 const Benefits = ({ setSelected }: Props) => {
-  const isAboveMediaScreens = useMediaQuery("(min-width:1060px)");
+  
   const benefits: Array<BenefitType> = [
     {
       icon: <HomeModernIcon className="h-6 w-6" />,
