@@ -34,7 +34,7 @@ const Home = ({ setSelected }: Props) => {
             hidden:{opacity:0,x:-50},
             visible:{opacity:1,x:0}
           }}
-          className="md:-mt-20">
+          >
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                 <img src={HomePageText} alt=" homepage text" />
